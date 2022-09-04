@@ -1,0 +1,450 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+#CRMbox {
+  position: relative;
+  transition: all 2s;
+}
+
+#CRMbox:hover {
+  transform: scaleX(1.05);
+  box-shadow: -10px 0px 8px #888888;
+}
+
+#CRMwrapper{
+    margin-bottom: 25px;
+}
+
+ol {
+  list-style: none; /* Remove default bullets */
+}
+
+ol li::before {
+  content: "	☑"; /* Add content: ☑ is the CSS Code/unicode for a bullet */
+  color: #f75732; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 2rem; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+#heroSection {
+   font-size: 2.5rem; 
+   background-color: #f75732; 
+   justify-items:space-between; 
+   z-index: 0;
+}
+
+.heroImg{
+  position: relative;
+  left: 140px;
+}
+
+#heroInnerDiv{
+    align-items: center; 
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.learn {
+  display: flex;
+  justify-content: center;
+}
+
+#outterDivBorder {
+  border-bottom: 1px solid white;
+}
+
+.innerDivBorder {
+  border-right: 1px solid white;
+}
+
+#myLearningSection {
+  width: 300px;
+}
+
+.btnbgHover {
+  background-color: rgb(248, 244, 238);
+  padding-left: 20px;
+  width: 120px;
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+  font-size: 14px;
+  border-radius: 2px;
+  font-weight: 600;
+  border: none;
+}
+
+.myAchor {
+  margin-left: -20px;
+  color: #2e475d;
+  text-decoration: none;
+}
+
+.myAchor:hover {
+  color: #2e475d;
+  text-decoration: none;
+}
+
+#CRMbtnDIV {
+  display: flex;
+
+  margin: 30px 0 20px 0;
+  font-weight: 600;
+  z-index: 0;
+  margin:30px 0 30px 0;
+  font-weight: 600;
+  justify-content: center;
+  transition: all 2s;
+}
+ 
+
+#CRMbtn1{
+    width: 150px;
+    background-color: #F75732;
+    border-radius: 5px;
+    height: 40px;
+    border: 1px solid #F75732;
+    
+}
+
+#CRMbtn2{
+    width: 200px;
+    background-color: #fff ;
+    border-radius: 5px;
+    height: 40px;
+    margin-left: 10px;
+    
+}
+
+.mySecondAbout{
+    display: none;
+}
+
+
+.CRMcardsBtn{ 
+    background: #F75732; 
+    width: 100%;
+    border: none; 
+    border-radius: 5px; 
+    height: 50px; 
+    font-size: 1.3rem;
+}
+
+.buffer{
+    height: 50px;
+}
+
+
+.footerRowWrapper{
+    display: flex;
+    column-gap: 50px;
+    text-align: center;
+    transition: all 2s;
+}
+
+#FooterSale{
+    list-style: none; 
+    line-height: 30px; 
+    margin-top: 40px; 
+}
+
+#FooterSaleDiv{
+    margin-top: 40px; 
+    width: 300px;
+    border-right:1px solid white ;
+}
+
+
+.footerInnerDivs ul li a{
+  text-decoration: none;
+  color: white;
+ }
+ 
+ .footerInnerDivs ul li a:hover{
+ text-decoration: underline;
+ color: #B7E0C1;
+ }
+
+#copywrite{
+   padding-left: 35%;  
+   margin-top: 30px; 
+   margin-bottom: 0px;
+}
+
+.copywriteText {
+    font-size: 1rem; 
+    color: #afb7c0;
+   position: relative;
+   left: -60px;
+   top: 10px;
+}
+
+#copywrite ul li a{
+    text-decoration: underline;
+    color: white;
+    }
+
+#copywrite ul li a:hover{
+ text-decoration: none;
+ color: #B7E0C1;
+ }
+
+.copywriteUL {
+position: relative; 
+list-style: none; 
+font-size: 20px; 
+left: -150px;
+font-weight: 600; 
+display: flex;
+text-align: center;
+margin-top: 20px;
+}
+
+ .copywriteUlLi2{
+padding: 0 10px 0 10px;
+ }
+
+
+ .footerHeading{
+    font-size: 10px;
+    color: #222f3a;
+    text-align: center;
+ }
+
+.footerWaterMark  {
+    justify-content: center; 
+}
+
+.software{
+ 
+  margin-top: -10px;
+  display: flex;
+  margin-bottom: 0;
+   
+}
+
+.lanLi, .knowUs{
+  padding: 0;
+  width: 50px;
+  position: relative;
+
+}
+
+
+.knowUs li a:hover{
+  text-decoration: underline;
+  color: 	#32CD32;
+}
+
+.language li a:hover{
+  text-decoration: underline;
+  color: 	#32CD32;
+}
+
+.resourcesLinks{
+  background-color: #F6F9FC;
+  text-decoration: none; 
+  color: #2E475D; 
+  font-weight: 500;
+}
+
+.resourcesLinks li a{
+  text-decoration: none; 
+  color: #2E475D; 
+  font-weight: 500;
+}
+
+.resourcesLinks li a:hover{
+  color:#0B848B ;
+  text-decoration: underline; 
+  font-size: 17px;
+  padding: auto;
+}
+
+.knowUs li a{
+  text-decoration: none;
+}
+
+.language li a{
+  text-decoration: none;
+}
+
+
+.language li:hover ul{
+  display: block;
+  position: relative;
+  top: 40px;
+  left: -100px;
+}
+
+.knowUs li:hover ul{
+  display: block;
+  position: relative;
+  top: -10px;
+}
+
+.software li:hover ul{
+   display: block;
+}
+
+.second-nav-bar{
+  font-weight: 600; 
+}
+
+
+.mobileNav .textColor{
+  color: #2E475D;
+}
+
+.ticketForInbound{
+  display: flex;
+  color: white;
+  background-color: #3e5974;
+  justify-content: center;
+  margin-top: 10px;
+  align-items: center;
+  font-size: 18px;
+  height: 140px;
+  z-index: 0;
+}
+
+
+
+/* my screen media queries */
+
+@media only screen and (max-width: 600px) {
+  .second-nav-bar{ 
+    font-weight: 600; 
+  }
+
+  .heroImg{
+    position: relative;
+    left: 0;
+  }
+
+  #heroInnerDiv{
+    display: block;
+}
+
+/* img{
+    width: 500px;
+    height: 500px;
+    object-fit: contain;
+}  */
+
+  .learn {
+    border: none;
+    display: block;
+  }
+
+  #myLearningSection {
+    border: none;
+    display: block;
+    width: 100%;
+  }
+
+  #outterDivBorder {
+    border: none;
+  }
+
+  .btnbgHover {
+    background-color: transparent;
+    padding-left: 0;
+  }
+
+  .myAchor {
+    color: aliceblue;
+    text-decoration: underline;
+    font-size: 18px;
+    margin-left: -10;
+  }
+
+  .myAchor:hover {
+    color: #ffff;
+    text-decoration: underline;
+  }
+
+  #CRMbtnDIV {
+    display: block;
+  }
+
+  #CRMbtn1, #CRMbtn2 {
+   width: 100%;
+   left: 0;
+   margin: 10px 0 10px 0;
+    
+  }
+
+  .mySecondAbout{
+    display: flex;
+}
+
+.CRMcardsBtn{
+    width: 100%;
+    margin-left: 0; 
+}
+
+#CRMbox{
+    width: 100%;
+}
+
+.footerRowWrapper{
+    display: block;
+    row-gap: 50px;
+    text-align: center;
+}
+
+.footerRowWrapper h1{
+    color: white;
+}
+
+#FooterSale{ 
+    width: auto;
+}
+
+#FooterSaleDiv{
+    width: auto;
+    border: none;
+}
+
+.footerInnerDivs ul li a{
+    color: rgb(255, 255, 255);
+}
+
+ #copywrite ul li{
+    position: relative;
+    left: 6%;  
+    font-size: 1rem;
+     
+ }
+
+ .copywriteText {
+    left: 0;
+}
+
+ .copywriteUL {
+    left: -80px;
+    font-weight: 600; 
+    margin-top: 15px;
+    }
+
+    .footerWaterMark  {
+        justify-content: center; 
+        padding: 0 50px;
+    }
+
+    .ticketForInbound p{
+      margin-left: 4%;
+    }
+
+}
